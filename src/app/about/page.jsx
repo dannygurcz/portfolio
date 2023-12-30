@@ -58,45 +58,57 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            I’m Tin Tran. I live in HCM Metropolian area, where I design the
-            future.
+          Daniel Gurczynski - Full Stack Developer & Designer
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I’ve loved making things for as long as I can remember, and wrote
-              my first program when I was 6 years old, just two weeks after my
-              mom brought home the brand new Macintosh LC 550 that I taught
-              myself to type on.
-            </p>
+              Hello and welcome to my portfolio website! I'm Daniel Gurczynski, 
+              a passionate full-stack developer hailing from the sunny shores of 
+              Daytona Beach, Florida. With over 17 years of experience in the 
+              ever-evolving world of web development, UI design, and graphic design, 
+              I've had the privilege of crafting digital experiences that not only 
+              look stunning but also function seamlessly.
+            </p> 
+
             <p>
-              The only thing I loved more than computers as a kid was space.
-              When I was 8, I climbed the 40-foot oak tree at the back of our
-              yard while wearing my older sister’s motorcycle helmet, counted
-              down from three, and jumped — hoping the tree was tall enough that
-              with just a bit of momentum I’d be able to get to orbit.
-            </p>
+              In the fast-paced realm of technology, I've honed my skills to adapt 
+              to the latest trends and technologies. From coding elegant and 
+              efficient websites to conceptualizing captivating UI designs, my 
+              journey in the digital landscape has been both exciting and rewarding.
+            </p> 
+
             <p>
-              I spent the next few summers indoors working on a huge lego city,
-              while I recovered from the multiple surgeries it took to fix my
-              badly broken legs. It took nine iterations to fully built my
-              little dream city.
-            </p>
+              As you explore this portfolio, you'll dive into a world of projects 
+              that reflect my dedication to innovation, user-centric design, and 
+              technical prowess. From e-commerce platforms to sleek mobile apps, 
+              I've had the opportunity to work on a diverse range of projects, 
+              each with its unique challenges and solutions.
+            </p> 
+
             <p>
-              Today, I’m starting my entrepreneur journey, where we’re working
-              on digital agency services and solutions for e-com businesses. And
-              I also own a blog that helps men to improve their life and
-              fitness.
+              I believe that design and functionality go hand in hand, and I strive 
+              to strike the perfect balance in every project I undertake. With a keen 
+              eye for aesthetics and a robust understanding of development principles, 
+              I create digital solutions that not only meet but exceed expectations.
+            </p> 
+
+            <p>
+              Thank you for taking the time to visit my portfolio website. I invite 
+              you to browse through my work, explore my skills, and get in touch if 
+              you're interested in collaborating on your next digital endeavor. 
+              Together, we can transform your ideas into visually stunning and highly 
+              functional realities.
+            </p> 
+
+            <p>
+              Let's embark on a journey of innovation and creativity. Welcome to my 
+              world of web development and design!   
             </p>
+            
           </div>
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink href="#" icon={TwitterIcon}>
-              Follow on Twitter
-            </SocialLink>
-            <SocialLink href="#" icon={InstagramIcon} className="mt-4">
-              Follow on Instagram
-            </SocialLink>
             <SocialLink href="#" icon={GitHubIcon} className="mt-4">
               Follow on GitHub
             </SocialLink>
@@ -104,11 +116,11 @@ export default function About() {
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
-              href="mailto:jaytintran@gmail.com"
+              href="mailto:dpgdph@gmail.com"
               icon={MailIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
-              jaytintran@gmail.com
+              dpgdph@gmail.com
             </SocialLink>
           </ul>
         </div>
